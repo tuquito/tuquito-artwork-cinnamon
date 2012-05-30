@@ -1,0 +1,13 @@
+Source: tuquito-artwork-cinnamon
+Section: admin
+Priority: optional
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: tuquito-artwork-cinnamon
+Architecture: all
+Replaces: tuquito-artwork-gnome
+Depends: tuquito-artwork-common tuquito-icons cinnamon-themes
+Description: Default artwork for the Cinnamon edition of Tuquito
+ Default artwork for the Cinnamin edition of Tuquito

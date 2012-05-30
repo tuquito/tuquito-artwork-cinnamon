@@ -1,0 +1,47 @@
+[org.gnome.desktop.interface]
+cursor-theme='DMZ-White'
+gtk-key-theme='Default'
+gtk-theme='Tuquito'
+icon-theme='Tuquito'
+menus-have-icons=true
+toolkit-accessibility=false
+font-name="Ubuntu 10"
+monospace-font-name="Monospace 10"
+document-font-name="Ubuntu 10"
+
+[org.gnome.desktop.background]
+primary-color="#000000"
+secondary-color="#000000"
+color-shading-type="solid"
+picture-uri='/usr/share/backgrounds/tuquito/Tuquito6.jpg'
+picture-options="zoom"
+
+[org.gnome.nautilus.desktop]
+computer-icon-visible=true
+home-icon-visible=true
+volumes-visible=true
+font="Ubuntu 10"
+
+[org.gnome.nautilus.preferences]
+enable-delete=true
+
+[org.gnome.desktop.wm.preferences]
+theme='Tuquito'
+button-layout='menu:minimize,maximize,close'
+num-workspaces=4
+titlebar-font="Ubuntu Bold 10"
+titlebar-uses-system-font=false
+
+[org.gnome.desktop.sound]
+theme-name="Tuquito"
+event-sounds=false
+input-feedback-sounds=false
+
+[org.gnome.gedit.preferences.editor]
+create-backup-copy=false
+
+[org.gnome.settings-daemon.plugins.xsettings]
+hinting="slight"
+
+[org.cinnamon.theme]
+name='Tuquito'
