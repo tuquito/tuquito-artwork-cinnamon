@@ -4,6 +4,7 @@ gtk-key-theme='Default'
 gtk-theme='Tuquito'
 icon-theme='Tuquito'
 menus-have-icons=true
+buttons-have-icons=true
 toolkit-accessibility=false
 font-name="Ubuntu 10"
 monospace-font-name="Monospace 10"
@@ -42,6 +43,15 @@ create-backup-copy=false
 
 [org.gnome.settings-daemon.plugins.xsettings]
 hinting="slight"
+
+[org.cinnamon]
+overview-corner-functionality='scale'
+desktop-effects-close-effect='fade'
+desktop-effects-map-effect='fade'
+desktop-effects-minimize-effect='fade'
+favorite-apps=['google-chrome.desktop', 'tuquito-software-manager.desktop', 'tuquito-control-center.desktop', 'xchat.desktop', 'nautilus.desktop']
+panel-launchers=['google-chrome.desktop']
+enabled-applets=['panel1:left:0:menu@cinnamon.org', 'panel1:left:1:show-desktop@cinnamon.org', 'panel1:left:3:window-list@cinnamon.org', 'panel1:right:0:removable-drives@cinnamon.org', 'panel1:right:1:keyboard@cinnamon.org', 'panel1:right:2:settings@cinnamon.org', 'panel1:right:3:bluetooth@cinnamon.org', 'panel1:right:4:network@cinnamon.org', 'panel1:right:5:sound@cinnamon.org', 'panel1:right:6:power@cinnamon.org', 'panel1:right:7:systray@cinnamon.org', 'panel1:right:8:calendar@cinnamon.org']
 
 [org.cinnamon.theme]
 name='Tuquito'
